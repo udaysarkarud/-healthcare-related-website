@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import aboutJpg from '../../../images/about.jpg'
-
-const AboutSection = () => {
+import aboutJpg from '../../images/about.jpg'
+const AboutPage = () => {
     return (
         <section className="container custom-section-margin" id="about">
             <div className="row gx-lg-5">
-                <div className="col-12 col-md-6 my-5 my-lg-0">
+                <div className="col-12 col-md-6">
                     <img style={{ border: "10px solid #0e1a60" }} className="img-fluid" src={aboutJpg} alt="" />
                 </div>
 
@@ -27,12 +25,10 @@ const AboutSection = () => {
                         galley of type and scrambled it to make a type specimen book. It has survived not only five
                         centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                         It was popularised in the 1960s with the release</p>
-
-                    <Link to="/about" className="btn btn-outline-primary custom-btn btn-lg">Learn More</Link>
                 </div>
             </div>
         </section>
     );
 };
 
-export default AboutSection;
+export default AboutPage;

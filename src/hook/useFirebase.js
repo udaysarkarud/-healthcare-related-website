@@ -1,10 +1,12 @@
 import initializeHealthCareAuth from "../Firebase/firebase.init";
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useEffect, useState } from "react";
+import { useHistory } from "react-router";
 
 initializeHealthCareAuth()
 
 const useFirebase = () => {
+    const history = useHistory()
     const [userProfile, setUserProfile] = useState();
     const [isLoading, setIsLoading] = useState(true);
 
@@ -49,6 +51,7 @@ const useFirebase = () => {
         updateProfile(auth.currentUser, {
             displayName: name
         }).then((result) => {
+
         }).catch((error) => {
             console.log(error.message)
         });

@@ -1,0 +1,44 @@
+[
+    {
+        "service_id": 1,
+        "serviceNmae": "Anti-Wrinkle Injections ",
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service01.png",
+        "bannerImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/29152517/anti-wrikle-hero.jpg",
+        "price": "299",
+        "title": "Botox Wrinkle Treatment",
+        "subtitele": "Anti-wrinkle injections are the best skin treatment to reduce facial lines and wrinkles. Younger looking skin in one simple step.",
+        "details": "Botox is the worlds No1 facial treatment for lines and wrinkles to help us look younger and more refreshed. It was first introduced into the UK in the late 80’s and its popularity has soared since then to treating millions of men and women safely each year. It is the result of years of studies(1) culminating in its the Food and Drug Administration (FDA) approval of botulinum toxin in 1989, for a wrinkle injection to target wrinkles and fine lines.The Botox treatment involves tiny painless injections into the specific areas of the skin to temporarily relax the muscles under the skin that in turn softens out the lines created by repetitive facial expressions over the years.The best thing about the Botox is that it only takes about 5-10 minutes to do and you can resume your normal day afterwards as there is no downtime.It takes 3-4 days to start work and the rejuvenating younger appearance lasts about 4-5 months.",
+        "rating": {
+            "rate": 4.9,
+            "count": 400
+        }
+    },
+    {
+        "service_id": 2,
+        "serviceNmae": "Anti-Wrinkle Injections ",
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service01.png",
+        "bannerImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/29152517/anti-wrikle-hero.jpg",
+        "price": "299",
+        "title": "Botox Wrinkle Treatment",
+        "subtitele": "Anti-wrinkle injections are the best skin treatment to reduce facial lines and wrinkles. Younger looking skin in one simple step.",
+        "details": "Botox is the worlds No1 facial treatment for lines and wrinkles to help us look younger and more refreshed. It was first introduced into the UK in the late 80’s and its popularity has soared since then to treating millions of men and women safely each year. It is the result of years of studies(1) culminating in its the Food and Drug Administration (FDA) approval of botulinum toxin in 1989, for a wrinkle injection to target wrinkles and fine lines.The Botox treatment involves tiny painless injections into the specific areas of the skin to temporarily relax the muscles under the skin that in turn softens out the lines created by repetitive facial expressions over the years.The best thing about the Botox is that it only takes about 5-10 minutes to do and you can resume your normal day afterwards as there is no downtime.It takes 3-4 days to start work and the rejuvenating younger appearance lasts about 4-5 months.",
+        "rating": {
+            "rate": 4.9,
+            "count": 400
+        }
+    },
+    {
+        "service_id": 3,
+        "serviceNmae": "Anti-Wrinkle Injections ",
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service01.png",
+        "bannerImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/29152517/anti-wrikle-hero.jpg",
+        "price": "299",
+        "title": "Botox Wrinkle Treatment",
+        "subtitele": "Anti-wrinkle injections are the best skin treatment to reduce facial lines and wrinkles. Younger looking skin in one simple step.",
+        "details": "Botox is the worlds No1 facial treatment for lines and wrinkles to help us look younger and more refreshed. It was first introduced into the UK in the late 80’s and its popularity has soared since then to treating millions of men and women safely each year. It is the result of years of studies(1) culminating in its the Food and Drug Administration (FDA) approval of botulinum toxin in 1989, for a wrinkle injection to target wrinkles and fine lines.The Botox treatment involves tiny painless injections into the specific areas of the skin to temporarily relax the muscles under the skin that in turn softens out the lines created by repetitive facial expressions over the years.The best thing about the Botox is that it only takes about 5-10 minutes to do and you can resume your normal day afterwards as there is no downtime.It takes 3-4 days to start work and the rejuvenating younger appearance lasts about 4-5 months.",
+        "rating": {
+            "rate": 4.9,
+            "count": 400
+        }
+    }
+]

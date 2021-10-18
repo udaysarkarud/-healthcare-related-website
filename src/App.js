@@ -9,6 +9,8 @@ import Login from './components/Login/Login'
 import AuthProvider from './Context/AuthProvider';
 import SecureRoute from './components/SecureRoute/SecureRoute';
 import Footer from './components/Footer/Footer';
+import AboutPage from './components/AboutPage/AboutPage';
+import DetailsSingleService from './components/DetailsSingleService/DetailsSingleService';
 
 function App() {
   return (
@@ -26,6 +28,11 @@ function App() {
               <Home />
             </Route>
 
+
+            <Route path="/about">
+              <AboutPage />
+            </Route>
+
             <SecureRoute path="/details">
               <DetailsFirst />
             </SecureRoute>
@@ -36,6 +43,10 @@ function App() {
 
             <Route path="/login">
               <Login />
+            </Route>
+
+            <Route path="/service-details/:service_id">
+              <DetailsSingleService />
             </Route>
 
             <Route path="*">
