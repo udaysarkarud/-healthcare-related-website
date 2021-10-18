@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
@@ -9,6 +8,7 @@ import Register from './components/Register/Register';
 import Login from './components/Login/Login'
 import AuthProvider from './Context/AuthProvider';
 import SecureRoute from './components/SecureRoute/SecureRoute';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -43,6 +43,7 @@ function App() {
             </Route>
 
           </Switch>
+          <Footer />
         </Router>
       </AuthProvider>
     </div>

@@ -4,6 +4,17 @@ const NotFound = () => {
     return (
         <div>
             <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
+            <h2>This is NotFound Compo</h2>
         </div>
     );
 };

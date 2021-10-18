@@ -1,23 +1,26 @@
 import React from 'react';
 import useAuthContext from '../../hook/useAuthContext';
+import AboutSection from './AboutSection/AboutSection';
+import BannerSection from './BannerSection/BannerSection';
+import BlogSection from './BlogSection/BlogSection';
+import ContactSection from './ContactSection/ContactSection';
+import FeaturesSection from './FeaturesSection/FeaturesSection';
+import ServicesSection from './ServicesSection/ServicesSection';
+import TeamSection from './TeamSection/TeamSection';
+
 
 const Home = () => {
     const { userProfile } = useAuthContext()
     return (
-        <section class="hero-banner" id="home-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 my-5">
-                        <div class="banner-text-wrap">
-                            <h1 class="text-white">We Provide Best Medical Services</h1>
-                            <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy</p>
-                            <a href="#" class="btn btn-white">Book Appointment</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <>
+            <BannerSection />
+            <FeaturesSection />
+            <AboutSection />
+            <ServicesSection />
+            <TeamSection />
+            <ContactSection />
+            <BlogSection />
+        </>
     );
 };
 

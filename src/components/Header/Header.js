@@ -1,49 +1,57 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
 import useAuthContext from '../../hook/useAuthContext';
 
 const Header = () => {
-    const { userProfile, handelGoogleSignOut } = useAuthContext()
+    const { userProfile, handelSignOut } = useAuthContext()
     return (
         <header>
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
+            <div className="container">
+                <nav className="navbar navbar-expand-lg navbar-light">
+                    <div className="container-fluid">
+                        <a className="navbar-brand" href="#">
                             <img src="images/logo.png" alt="" />
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#home-section">Home</a>
+                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                                <li className="nav-item">
+                                    <NavLink to="/home" className="nav-link">Home</NavLink>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about-section">About</a>
+                                <li className="nav-item">
+                                    <HashLink to="/home#about" className="nav-link">About</HashLink>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#services-section">Services</a>
+                                <li className="nav-item">
+                                    <HashLink to="/home#services" className="nav-link">Services</HashLink>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#reviews-section">Reviews</a>
+                                <li className="nav-item">
+                                    <HashLink to="/home#doctorsteam" className="nav-link">Our Doctors</HashLink>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#team-section">Our Doctors</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#blog-section">Blog</a>
+                                <li className="nav-item">
+                                    <HashLink to="/home#blog" className="nav-link">Blog</HashLink>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#booking-section">Book Appointment</a>
+                                <li className="nav-item">
+                                    <HashLink to="/home#contact" className="nav-link">Contact</HashLink>
+                                </li>
+
+                                <li className="nav-item">
+                                    <NavLink to="/appointment" className="nav-link">APPOINTMENT</NavLink>
                                 </li>
                             </ul>
+                            <div>
+                                {
+                                    !userProfile?.email ? <NavLink to="/login" className="btn btn-outline-light">Log in / Register</NavLink> : <button className="btn btn-outline-danger" onClick={handelSignOut}>Log out</button>
+                                }
+                            </div>
                         </div>
                     </div>
                 </nav>

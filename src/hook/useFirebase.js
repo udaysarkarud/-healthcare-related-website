@@ -19,7 +19,7 @@ const useFirebase = () => {
     }
 
     /* google Sign Out  */
-    const handelGoogleSignOut = () => {
+    const handelSignOut = () => {
         setIsLoading(true)
         signOut(auth).then(() => {
             setUserProfile({})
@@ -85,7 +85,7 @@ const useFirebase = () => {
         isLoading,
         setIsLoading,
         handelGoogleSignIn,
-        handelGoogleSignOut,
+        handelSignOut,
         handelEmailPasswordRegister,
         handelEmailPasswordLogin
 
