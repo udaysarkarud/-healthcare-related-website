@@ -3,7 +3,10 @@ import { Redirect, Route } from 'react-router';
 import useAuthContext from '../../hook/useAuthContext';
 
 const SecureRoute = ({ children, ...rest }) => {
-    const { userProfile } = useAuthContext()
+    const { userProfile, isLoading } = useAuthContext();
+    if (isLoading) {
+        return <p>Loading</p>
+    }
     return (
         <Route
             {...rest}

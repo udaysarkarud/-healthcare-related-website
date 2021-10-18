@@ -7,6 +7,7 @@ initializeHealthCareAuth()
 const useFirebase = () => {
     const [userProfile, setUserProfile] = useState();
 
+
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
