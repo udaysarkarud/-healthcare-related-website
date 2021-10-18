@@ -3,7 +3,7 @@ import { useHistory, useLocation } from 'react-router';
 import useAuthContext from '../../hook/useAuthContext';
 
 const Login = () => {
-    const { handelGoogleSignIn } = useAuthContext()
+    const { handelGoogleSignIn, setIsLoading } = useAuthContext()
 
     const location = useLocation()
     const history = useHistory()
@@ -13,6 +13,8 @@ const Login = () => {
         handelGoogleSignIn()
             .then(result => {
                 history.push(redirect_url)
+            }).finally(() => {
+                setIsLoading(false)
             })
     }
     return (

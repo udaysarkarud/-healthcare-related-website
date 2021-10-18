@@ -6,6 +6,7 @@ initializeHealthCareAuth()
 
 const useFirebase = () => {
     const [userProfile, setUserProfile] = useState();
+    const [isLoading, setIsLoading] = useState(true);
 
 
     const auth = getAuth();
@@ -19,11 +20,14 @@ const useFirebase = () => {
 
     /* google Sign Out  */
     const handelGoogleSignOut = () => {
+        setIsLoading(true)
         signOut(auth).then(() => {
             setUserProfile({})
         }).catch((error) => {
             console.log(error.message)
-        });
+        }).finally(() => {
+            setIsLoading(false)
+        })
 
     }
 
@@ -69,13 +73,17 @@ const useFirebase = () => {
             } else {
                 setUserProfile({})
             }
+            setIsLoading(false)
         });
+
         return () => unsubscribed;
     }, [])
 
     /* return necessary functions and state  */
     return {
         userProfile,
+        isLoading,
+        setIsLoading,
         handelGoogleSignIn,
         handelGoogleSignOut,
         handelEmailPasswordRegister,
