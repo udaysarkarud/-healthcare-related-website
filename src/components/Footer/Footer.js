@@ -14,7 +14,7 @@ const Footer = () => {
                                     <i className="bi bi-geo-alt-fill"></i>
                                     <div>
                                         <h4>Address</h4>
-                                        <p>33 Lorem Ipsum is simply dummy <br />text of the printing</p>
+                                        <p>3300 I-40 E Suite M2 <br />Amarillo, TX 79103</p>
                                     </div>
                                 </li>
                                 <li>
@@ -28,7 +28,7 @@ const Footer = () => {
                                     <i className="bi bi-envelope-fill"></i>
                                     <div>
                                         <h4>Email</h4>
-                                        <p> <a href="tel:+0123456789">Support@company.com</a></p>
+                                        <p> <a href="tel:+0123456789">Support@eyecare.com</a></p>
                                     </div>
                                 </li>
                             </ul>
@@ -40,12 +40,12 @@ const Footer = () => {
                         <div className="footer-widget">
                             <h3>Services</h3>
                             <ul className="footer-menu">
-                                <li> <a href="#"> Neurology </a> </li>
-                                <li> <a href="#"> Eyes care </a> </li>
-                                <li> <a href="#"> Pulomonary</a> </li>
-                                <li> <a href="#"> Cardiology</a> </li>
-                                <li> <a href="#">Dental Care</a> </li>
-                                <li> <a href="#">Hepatology</a> </li>
+                                <li> <a href="/home#about"> About </a> </li>
+                                <li> <a href="/home#services"> Services </a> </li>
+                                <li> <a href="/home#doctorsteam"> Our Doctots Team</a> </li>
+                                <li> <a href="/blogs"> Our Blog Posts</a> </li>
+                                <li> <a href="/home#contact">Contact</a> </li>
+                                <li> <a href="/appointment">Appointment</a> </li>
                             </ul>
                         </div>
                     </div>

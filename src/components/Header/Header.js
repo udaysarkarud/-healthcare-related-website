@@ -11,8 +11,9 @@ const Header = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">
-                            <img src="https://eyecareplus.com/wp-content/uploads/2020/07/Eyecare-Plus-Logo-Header.png" alt="" />
+                        <a className="navbar-brand text-white fw-bolder fs-2" href="#">
+                            <i className="bi bi-eye-fill"></i> EyeCare
+
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -47,9 +48,10 @@ const Header = () => {
                                     <NavLink to="/appointment" className="nav-link">APPOINTMENT</NavLink>
                                 </li>
                             </ul>
+
                             <div>
                                 {
-                                    !userProfile?.email ? <NavLink to="/login" className="btn btn-outline-light">Log in / Register</NavLink> : <button className="btn btn-outline-danger" onClick={handelSignOut}>Log out</button>
+                                    !userProfile?.email ? <NavLink to="/login" className="btn btn-outline-light">Log in / Register</NavLink> : <button className="btn btn-outline-danger" onClick={handelSignOut}><span className="badge bg-light text-dark">{userProfile.displayName}</span> Log out</button>
                                 }
                             </div>
                         </div>

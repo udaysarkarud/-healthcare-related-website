@@ -7,7 +7,6 @@ const Appointment = () => {
     const [appointmentDetails, setAppointmentDetails] = useState({});
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
-        const { name, email, subject, details, appointdate } = data;
         setAppointmentDetails(data)
     };
     return (

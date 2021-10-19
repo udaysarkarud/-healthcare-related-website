@@ -1,6 +1,5 @@
 import React from 'react';
 import UseFakeData from '../../hook/UseFakeData';
-import SingleBlogPage from '../SingleBlogPage/SingleBlogPage';
 
 const Blogs = () => {
     const [blogsData] = UseFakeData('blogsdata.json')
@@ -18,7 +17,8 @@ const Blogs = () => {
 
                                 <h5 className="card-title fs-4 my-2">{singlePost.blos_title}</h5>
                                 <div className="card-text">{singlePost.details.slice(0, 300)}</div>
-                                <a href="#" className="btn btn-outline-primary custom-btn my-3">Go somewhere</a>
+
+                                <button className="btn btn-outline-primary custom-btn my-3">Read More</button>
                             </div>
                         </div>
                     </div>)

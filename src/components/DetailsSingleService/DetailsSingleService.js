@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router';
 import UseFakeData from '../../hook/UseFakeData';
-import aboutJpg from '../../images/about.jpg'
 
 const DetailsSingleService = () => {
     const { service_id } = useParams()

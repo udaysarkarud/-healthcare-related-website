@@ -7,8 +7,8 @@ const ContactSection = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="form-col">
-                            <h4>Make An Appointment</h4>
-                            <h3>Get Free Consultation</h3>
+                            <h4>Have any Question?</h4>
+                            <h3>Feel Free to Contact with us</h3>
                         </div>
 
                         <form>
