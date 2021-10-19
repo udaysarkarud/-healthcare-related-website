@@ -1,44 +1,65 @@
 [
     {
-        "service_id": 1,
-        "serviceNmae": "Anti-Wrinkle Injections ",
-        "thumbnail": "https://musing-euclid-055303.netlify.app/service01.png",
-        "bannerImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/29152517/anti-wrikle-hero.jpg",
-        "price": "299",
-        "title": "Botox Wrinkle Treatment",
-        "subtitele": "Anti-wrinkle injections are the best skin treatment to reduce facial lines and wrinkles. Younger looking skin in one simple step.",
-        "details": "Botox is the worlds No1 facial treatment for lines and wrinkles to help us look younger and more refreshed. It was first introduced into the UK in the late 80’s and its popularity has soared since then to treating millions of men and women safely each year. It is the result of years of studies(1) culminating in its the Food and Drug Administration (FDA) approval of botulinum toxin in 1989, for a wrinkle injection to target wrinkles and fine lines.The Botox treatment involves tiny painless injections into the specific areas of the skin to temporarily relax the muscles under the skin that in turn softens out the lines created by repetitive facial expressions over the years.The best thing about the Botox is that it only takes about 5-10 minutes to do and you can resume your normal day afterwards as there is no downtime.It takes 3-4 days to start work and the rejuvenating younger appearance lasts about 4-5 months.",
-        "rating": {
-            "rate": 4.9,
-            "count": 400
-        }
+        "service_id": "45731",
+        "serviceNmae": "Dry Eye Therapy in Amarillo",
+        "thumbnail": "https://eyecareplus.com/wp-content/uploads/2020/07/EyecarePlus-SupportingImage-dryeyes.jpg",
+        "details": "You may not think about them that often, but your tears are responsible for maintaining your eye health and keeping your vision clear. They lubricate and nourish your cornea, provide a shield from dirt and debris, and wash away irritants. When your eyes aren’t able to provide proper lubrication or nourishment to your eyes, you can develop dry eyes. Dry eyes occur because you either have an inadequate amount of tears, or your tears are of poor quality. Dry eyes can be chronic, are often uncomfortable or painful, and can cause damage if not treated.",
+        "symptoms": "Dry eyes can lead to symptoms like: A stinging or burning feeling in the eyes, A feeling like something is in the eyes, Redness of the eyes or eye fatigue, Sensitivity to light, Watery eyes."
     },
     {
-        "service_id": 2,
-        "serviceNmae": "Anti-Wrinkle Injections ",
-        "thumbnail": "https://musing-euclid-055303.netlify.app/service01.png",
-        "bannerImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/29152517/anti-wrikle-hero.jpg",
-        "price": "299",
-        "title": "Botox Wrinkle Treatment",
-        "subtitele": "Anti-wrinkle injections are the best skin treatment to reduce facial lines and wrinkles. Younger looking skin in one simple step.",
-        "details": "Botox is the worlds No1 facial treatment for lines and wrinkles to help us look younger and more refreshed. It was first introduced into the UK in the late 80’s and its popularity has soared since then to treating millions of men and women safely each year. It is the result of years of studies(1) culminating in its the Food and Drug Administration (FDA) approval of botulinum toxin in 1989, for a wrinkle injection to target wrinkles and fine lines.The Botox treatment involves tiny painless injections into the specific areas of the skin to temporarily relax the muscles under the skin that in turn softens out the lines created by repetitive facial expressions over the years.The best thing about the Botox is that it only takes about 5-10 minutes to do and you can resume your normal day afterwards as there is no downtime.It takes 3-4 days to start work and the rejuvenating younger appearance lasts about 4-5 months.",
-        "rating": {
-            "rate": 4.9,
-            "count": 400
-        }
+        "service_id": "45732",
+        "serviceNmae": "Dry Eye & Wrinkle Treatments",
+        "thumbnail": "https://eyecareplus.com/wp-content/uploads/2020/08/EyecarePlus-EyeSpa-SupImage01.jpg",
+        "details": "We developed eyeSPA to help your eyes feel and look their best. Issues like dry eye not only cause discomfort but can cause visible symptoms like redness and watery eyes. We provide the right care to reduce the discomfort of dry eyes and other visible symptoms. Our doctors have also hand-picked various skincare and cosmetic treatments that are safe for your delicate eye area. Our aesthetic treatments address fine lines and wrinkles, allowing your eyes to truly shine.",
+        "symptoms": "Meibomian gland dysfunction is the leading cause of dry eyes, as it prevents the eye’s oil glands from functioning properly, meaning your eyes don’t get the necessary moisture. IPL helps to treat meibomian gland dysfunction by emitting a controlled spectrum of light. This light helps to dissolve blockages in the meibomian glands, helping to treat dry eye symptoms, improve overall comfort, and reduce eyelid redness."
     },
     {
-        "service_id": 3,
-        "serviceNmae": "Anti-Wrinkle Injections ",
-        "thumbnail": "https://musing-euclid-055303.netlify.app/service01.png",
-        "bannerImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/29152517/anti-wrikle-hero.jpg",
-        "price": "299",
-        "title": "Botox Wrinkle Treatment",
-        "subtitele": "Anti-wrinkle injections are the best skin treatment to reduce facial lines and wrinkles. Younger looking skin in one simple step.",
-        "details": "Botox is the worlds No1 facial treatment for lines and wrinkles to help us look younger and more refreshed. It was first introduced into the UK in the late 80’s and its popularity has soared since then to treating millions of men and women safely each year. It is the result of years of studies(1) culminating in its the Food and Drug Administration (FDA) approval of botulinum toxin in 1989, for a wrinkle injection to target wrinkles and fine lines.The Botox treatment involves tiny painless injections into the specific areas of the skin to temporarily relax the muscles under the skin that in turn softens out the lines created by repetitive facial expressions over the years.The best thing about the Botox is that it only takes about 5-10 minutes to do and you can resume your normal day afterwards as there is no downtime.It takes 3-4 days to start work and the rejuvenating younger appearance lasts about 4-5 months.",
-        "rating": {
-            "rate": 4.9,
-            "count": 400
-        }
+        "service_id": "45733",
+        "serviceNmae": "Glaucoma Treatments",
+        "thumbnail": "https://eyecareplus.com/wp-content/uploads/2020/07/EyecarePlus-SupportingImage-gluacoma.jpg",
+        "details": "Eye exams are often known for the “air puff test.” You may find this test annoying, or even dread it; however, it’s important. The puff of air is a non-contact measurement of your intraocular pressure (IOP), which, if elevated, is a sign of glaucoma. Glaucoma is an eye disease that damages the optic nerve and can eventually lead to vision loss, if not managed appropriately. Glaucoma can progress without noticeable symptoms, so without regular eye exams, it can go unnoticed until significant damage occurs.",
+        "symptoms": "Ultimately, glaucoma leads to damage of the optic nerve and is usually associated with increased pressure in the eye. However, there are various forms of glaucoma, and not all are related to increased eye pressure. Glaucoma also seems to be related to genetics and runs in families."
+    },
+    {
+        "service_id": "45734",
+        "serviceNmae": "Cataracts Treatments",
+        "thumbnail": "https://eyecareplus.com/wp-content/uploads/2020/07/EyecarePlus-SupportingImage-cataract.jpg",
+        "details": "Cataracts are the clouding or fogging of the eyes’ natural lenses. They generally occur with age, but can also be a result of injury or trauma to the eye. Cataracts can progress slowly, and symptoms, like foggy vision, increased difficulty seeing at night, or halos, can be corrected using eyeglasses or brighter lights. However, if cataracts start to impact your ability to perform your daily activities, such as reading or driving, you may require cataract surgery.",
+        "symptoms": "Cataracts generally occur naturally as part of the aging process. As we age, the proteins in our lenses begin to break down and clump together, creating cloudy vision. This clouding increases over time, progressing in severity. There are some risk factors associated with the development of cataracts or early-onset cataracts. You can help prevent or delay cataracts by remaining aware of these risks."
+    },
+    {
+        "service_id": "45735",
+        "serviceNmae": "Myopia Control Treatments",
+        "thumbnail": "https://eyecareplus.com/wp-content/uploads/2020/07/EyecarePlus-SupportingImage-myopiacontrol.jpg",
+        "details": "Myopia, or nearsightedness, is a refractive error of the eye that leads to distant objects appearing blurry while nearby objects remain clear. It occurs when the cornea’s curvature is too steep, or the eye’s length is too long. Essentially, if you have myopia, it means the light entering your eye focuses in front of the retina instead of on it.",
+        "symptoms": "Myopia commonly develops in school-aged children. Watch for signs of myopia in your child, because they may not be aware they are having trouble seeing. Myopia is diagnosed during a comprehensive eye exam. Children should have their eyes examined every year once they enter school, not only monitor their vision for changes but also to assess their ocular health."
+    },
+    {
+        "service_id": "45736",
+        "serviceNmae": "Laser Eye Surgery Consultations",
+        "thumbnail": "https://eyecareplus.com/wp-content/uploads/2020/07/EyecarePlus-SupportingImage-lasereyes.jpg",
+        "details": "Gain freedom & flexibility with laser eye surgery if you wear eyeglasses or contact lenses, chances are you’ve considered corrective eye surgery. Eye surgery can be a great solution, but there are some things you will need to consider before booking your surgery.",
+        "symptoms": "Your LASIK consultation includes a series of tests and assessments to evaluate your ocular health and refractive error to determine if LASIK is an option for you. We will begin by discussing your medical history and current medications. Some medical conditions and medications can increase your risk of complications associated with LASIK or may make this procedure unsuitable for you. We will go over all the associated risks of LASIK during your consultation, and ensure you have realistic expectations going into the surgery. This is also the perfect time to ask any questions or voice any concerns you may have."
+    },
+    {
+        "service_id": "45737",
+        "serviceNmae": "Digital Eye Strain",
+        "thumbnail": "https://eyecareplus.com/wp-content/uploads/2020/07/EyecarePlus-SupportingImage-digitaleyestrain.jpg",
+        "details": "If you use digital devices like computers, smartphones, or tablets, either at work or home, you may have experienced uncomfortable digital eye strain symptoms. These can include headaches, blurred vision, dry eyes, or neck pain and are often caused by spending more than 2 hours at a time looking at a digital screen. With 80% of Americans spending significant time using digital devices, and 59% of American adults reporting symptoms of digital eye strain, what can be done.",
+        "symptoms": "You can also reduce your eye strain by reducing glare on your screen using an anti-glare screen filter. Changing the lighting in your environment or adjusting the contrast and brightness on your screen can also help. Correcting your computer posture will reduce digital eye strain and prevent other workplace injuries, like carpal tunnel. If you’re worried about symptoms or would like to discuss digital eye strain in more detail, please book an appointment today."
+    },
+    {
+        "service_id": "45738",
+        "serviceNmae": "Eye Disease Diagnosis",
+        "thumbnail": "https://eyecareplus.com/wp-content/uploads/2020/08/EyecarePlus-SupportingImage-eyedisease.jpg",
+        "details": "Eye diseases, like macular degeneration, cataracts, diabetic retinopathy, and glaucoma, are some of the leading causes of vision loss and blindness in the United States. Eye disease can occur at any time, but they are more common as we get older. Many eye diseases also progress with few early symptoms and often go unnoticed until vision loss occurs. Regular eye exams are crucial for detecting eye diseases and for helping protect your overall ocular health.",
+        "symptoms": "Dry AMD occurs when the macula deteriorates over time due to aging. This is a slow, progressive disease that leads to the gradual blurring of central vision. It is the more common form of AMD and is associated with the accumulation of drusen, deposits of lipids and proteins under the retina. Wet AMD is caused by the abnormal growth of blood vessels in the retina, which break and leak blood or fluid into the macula. Wet AMD usually starts as dry AMD, but not everyone with dry AMD will develop wet AMD."
+    },
+    {
+        "service_id": "45739",
+        "serviceNmae": "Emergency Eye Care",
+        "thumbnail": "https://eyecareplus.com/wp-content/uploads/2020/07/EyecarePlus-SupportingImage-eyeemergency.jpg",
+        "details": "Accidents happen. They can be scary and stressful, and it can be difficult to know what to do if you or a loved one has experienced an eye injury. In these instances, our team at Eye Care Plus provides emergency eye care for various eye conditions and injuries. Unnoticed until vision loss occurs. Regular eye exams are crucial for detecting eye diseases and for helping protect your overall ocular health.",
+        "symptoms": "Eye emergencies include accidents such as cuts, scratches, foreign objects, burns, or blunt trauma to the eye or eyelid. An eye emergency also includes infection and other medical conditions, such as the sudden onset of floaters or flashes. Even minor injuries can lead to possible vision loss if left untreated."
     }
 ]

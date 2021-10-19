@@ -10,8 +10,8 @@ const SingleService = (props) => {
             <div className="card">
                 <img src={singleServiceData.thumbnail} className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">{singleServiceData.title}</h5>
-                    <p className="card-text">{singleServiceData.details}</p>
+                    <h5 className="card-title">{singleServiceData.serviceNmae}</h5>
+                    <p className="card-text">{singleServiceData.details.slice(0, 300)}</p>
                     <div className="text-center">
                         <Link to={serviceUrl} className="btn btn-outline-primary custom-btn">Check Details</Link>
                     </div>

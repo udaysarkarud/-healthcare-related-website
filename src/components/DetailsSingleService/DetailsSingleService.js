@@ -15,11 +15,12 @@ const DetailsSingleService = () => {
             <div className="row gx-lg-5">
                 <div className="col-12 col-md-6">
                     <img style={{ border: "10px solid #0e1a60" }} className="img-fluid" src={SingledetailsData?.thumbnail} alt="" />
+                    <h3 className="text-center my-2 fw-bolder">{SingledetailsData?.serviceNmae}</h3>
                 </div>
 
                 <div className="col-12 col-md-6">
-                    <h3>{SingledetailsData?.title}</h3>
-                    <p className="lead">{SingledetailsData?.details}</p>
+                    <p className="fs-5"><span className="fw-bold">Details: </span> {SingledetailsData?.details}</p>
+                    <p className="fs-5"><span className="fw-bold">Symptoms: </span>{SingledetailsData?.symptoms}</p>
                 </div>
             </div>
         </section>

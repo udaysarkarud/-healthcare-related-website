@@ -12,7 +12,7 @@ const Header = () => {
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">
-                            <img src="images/logo.png" alt="" />
+                            <img src="https://eyecareplus.com/wp-content/uploads/2020/07/Eyecare-Plus-Logo-Header.png" alt="" />
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

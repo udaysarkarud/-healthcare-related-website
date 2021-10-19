@@ -23,9 +23,8 @@ const TeamSection = () => {
                                         <img src={singleDoc.docImg} alt="" />
                                     </div>
                                     <div className="text-center my-3">
-                                        <h3>{singleDoc.docname}</h3>
-                                        <p>{singleDoc.suffix}</p>
-                                        <p>{singleDoc.specialists_in}</p>
+                                        <h5>{singleDoc.docname}, {singleDoc.suffix}</h5>
+                                        <p className="fs-6">{singleDoc.specialists_in}</p>
                                         <ul className="team-social">
                                             <li> <a href="https://www.facebook.com/"> <i className="bi bi-facebook" aria-hidden="true"></i> </a> </li>
                                             <li> <a href="https://www.facebook.com/"> <i className="bi bi-twitter" aria-hidden="true"></i> </a> </li>

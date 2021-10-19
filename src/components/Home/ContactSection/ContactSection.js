@@ -41,7 +41,7 @@ const ContactSection = () => {
 
                                 <div className="col-md-12">
                                     <div className="form-group">
-                                        <input type="submit" value="Submit" className="btn btn-light btn-lg" />
+                                        <a href="#" className="btn btn-light btn-lg"> Submit</a>
                                     </div>
                                 </div>
                             </div>
