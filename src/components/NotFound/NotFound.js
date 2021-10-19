@@ -2,20 +2,13 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-            <h2>This is NotFound Compo</h2>
-        </div>
+        <section className="container custom-section-margin" id="about">
+            <div className="row gx-lg-5">
+                <div className="col-12">
+                    <img className="img-fluid" src="https://i.stack.imgur.com/6M513.png" alt="" />
+                </div>
+            </div>
+        </section>
     );
 };
 

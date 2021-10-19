@@ -12,9 +12,7 @@ const FeaturesSection = () => {
                     <div className="bg1 p-5">
                         <img src={calendarPng} alt="" />
                         <h3 className="text-white">24 Hours Services</h3>
-                        <p className="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has
-                            been the industry's standard dummy text ever since</p>
+                        <p className="text-white">If you are experiencing a life-threatening condition, call 911 or seek emergency medical care by going to your nearest hospital emergency.</p>
                     </div>
                 </div>
 
@@ -23,9 +21,7 @@ const FeaturesSection = () => {
                     <div className="bg2 p-5">
                         <img src={staffPng} alt="" />
                         <h3 className="text-white">Professional Staff</h3>
-                        <p className="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has
-                            been the industry's standard dummy text ever since</p>
+                        <p className="text-white">Advantage Medical Professionals is the top nursing staffing agency in the country. We offer a wide range of nursing services.</p>
                     </div>
                 </div>
 
@@ -33,9 +29,7 @@ const FeaturesSection = () => {
                     <div className="bg3 p-5">
                         <img src={ambulancePng} alt="" />
                         <h3 className="text-white">Emergency Care</h3>
-                        <p className="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has
-                            been the industry's standard dummy text ever since</p>
+                        <p className="text-white">In an emergency, minutes matter. Know when to go. Learn more about emergency related symptoms or get directions to the ER now.</p>
                     </div>
                 </div>
 

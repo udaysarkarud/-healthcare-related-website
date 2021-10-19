@@ -1,5 +1,4 @@
 import React from 'react';
-import blogImg from '../../../images/blog1.jpg'
 
 const BlogSection = () => {
     return (
@@ -17,7 +16,7 @@ const BlogSection = () => {
                         <div className="card-body">
                             <h5 className="card-title fs-4 my-2">Adult &amp; Senior Eye Exams</h5>
                             <p className="card-text">Comprehensive Eye Care from an Experienced Team</p>
-                            <a href="#" className="btn btn-outline-primary custom-btn">Learn More</a>
+                            <button className="btn btn-outline-primary custom-btn">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -28,7 +27,7 @@ const BlogSection = () => {
                         <div className="card-body">
                             <h5 className="card-title fs-4 my-2">Kids Eye Exams</h5>
                             <p className="card-text">Give Your Child a Step-Up with Regular Eye Exams</p>
-                            <a href="#" className="btn btn-outline-primary custom-btn">Learn More</a>
+                            <button className="btn btn-outline-primary custom-btn">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -38,7 +37,7 @@ const BlogSection = () => {
                         <div className="card-body">
                             <h5 className="card-title fs-4 my-2">Contact Lens &amp; Brands</h5>
                             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" className="btn btn-outline-primary custom-btn">Learn More</a>
+                            <button className="btn btn-outline-primary custom-btn">Learn More</button>
                         </div>
                     </div>
                 </div>

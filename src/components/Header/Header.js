@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 import useAuthContext from '../../hook/useAuthContext';
@@ -13,7 +13,6 @@ const Header = () => {
                     <div className="container-fluid">
                         <a className="navbar-brand text-white fw-bolder fs-2" href="#">
                             <i className="bi bi-eye-fill"></i> EyeCare
-
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

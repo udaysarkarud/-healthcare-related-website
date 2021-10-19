@@ -1,5 +1,4 @@
 import React from 'react';
-import bannerImg from '../../../images/banner-bg.jpg'
 
 const BannerSection = () => {
 

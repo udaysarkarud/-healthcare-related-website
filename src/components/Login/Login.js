@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import useAuthContext from '../../hook/useAuthContext';
 
 const Login = () => {
-    const { handelGoogleSignIn, handelEmailPasswordLogin, setIsLoading } = useAuthContext()
+    const { handelGoogleSignIn, handelEmailPasswordLogin, setIsLoading, allError } = useAuthContext()
 
     const location = useLocation()
     const history = useHistory()
@@ -28,8 +28,11 @@ const Login = () => {
     return (
         <section className="hero-banner">
             <div className="container">
+
                 <form onSubmit={handleSubmit(onSubmit)} className="form-signin  bg-light rounded-3">
-                    <h1 className="h3 mb-3 font-weight-normal text-center">Please sign in</h1>
+                    <h1 className="h3 mb-3 font-weight-normal text-center">{
+                        allError ? allError : 'Please sign in'
+                    } Please sign in</h1>
 
                     {errors.email && <span>Your email is required</span>}
                     <input type="email" placeholder="Your Email" {...register("email", { required: true })} className="form-control" />

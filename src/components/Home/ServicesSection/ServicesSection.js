@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import UseFakeData from '../../../hook/UseFakeData';
-import abc from '../../../images/neurology-icon.png'
 import SingleService from '../../SingleService/SingleService';
 
 const ServicesSection = () => {

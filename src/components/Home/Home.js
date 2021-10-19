@@ -1,5 +1,4 @@
 import React from 'react';
-import useAuthContext from '../../hook/useAuthContext';
 import AboutSection from './AboutSection/AboutSection';
 import BannerSection from './BannerSection/BannerSection';
 import BlogSection from './BlogSection/BlogSection';
@@ -10,7 +9,6 @@ import TeamSection from './TeamSection/TeamSection';
 
 
 const Home = () => {
-    const { userProfile } = useAuthContext()
     return (
         <>
             <BannerSection />

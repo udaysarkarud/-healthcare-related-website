@@ -37,7 +37,7 @@ const Appointment = () => {
                                         <span className="fw-bold">Details: </span> {appointmentDetails.details}
                                     </p>
                                     <div className="text-center mt-5">
-                                        <a href="#" className="btn btn-outline-light">Download</a>
+                                        <button className="btn btn-outline-light">Download</button>
                                     </div>
                                 </div>
                             </div>

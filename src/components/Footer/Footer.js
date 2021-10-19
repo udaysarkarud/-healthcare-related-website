@@ -75,6 +75,10 @@ const Footer = () => {
                     </div>
 
                 </div>
+
+            </div>
+            <div className="container pt-5">
+                <p className="text-center">&copy; 2021 EyeCare, Inc.</p>
             </div>
         </footer>
     );

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import UseFakeData from '../../../hook/UseFakeData';
-import teamPic from '../../../images/team/1.jpg'
+
 
 const TeamSection = () => {
 
