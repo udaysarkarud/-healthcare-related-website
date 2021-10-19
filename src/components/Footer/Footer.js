@@ -50,26 +50,26 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-2">
+                    <div className="col-md-3">
                         <div className="footer-widget">
-                            <h3>Services</h3>
+                            <h3>Working Hours</h3>
                             <ul className="footer-menu">
-                                <li> <a href="#"> Neurology </a> </li>
-                                <li> <a href="#"> Eyes care </a> </li>
-                                <li> <a href="#"> Pulomonary</a> </li>
-                                <li> <a href="#"> Cardiology</a> </li>
-                                <li> <a href="#">Dental Care</a> </li>
-                                <li> <a href="#">Hepatology</a> </li>
+                                <li><p>MON  8:00 - 6:00</p></li>
+                                <li><p>TUE  8:00 - 6:00</p></li>
+                                <li><p>WED  8:00 - 6:00</p></li>
+                                <li><p>THR  8:00 - 6:00</p></li>
+                                <li><p>FRI  8:00 - 6:00</p></li>
+                                <li><p>SAT - SUN CLOSED</p></li>
                             </ul>
                         </div>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                         <div className="footer-widget">
                             <h3>Newsletter</h3>
                             <form>
                                 <input type="email" placeholder="Enter Email" className="form-control mb-2" />
-                                <input type="submit" value="Subscribe" className="btn btn-white" />
+                                <a href="" className="btn btn-outline-light btn-lg">Subscribe</a>
                             </form>
                         </div>
                     </div>

@@ -11,6 +11,7 @@ import SecureRoute from './components/SecureRoute/SecureRoute';
 import Footer from './components/Footer/Footer';
 import AboutPage from './components/AboutPage/AboutPage';
 import DetailsSingleService from './components/DetailsSingleService/DetailsSingleService';
+import Appointment from './components/Appointment/Appointment';
 
 function App() {
   return (
@@ -32,6 +33,11 @@ function App() {
             <Route path="/about">
               <AboutPage />
             </Route>
+
+
+            <SecureRoute path="/appointment">
+              <Appointment />
+            </SecureRoute>
 
             <SecureRoute path="/details">
               <DetailsFirst />
