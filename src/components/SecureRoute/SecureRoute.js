@@ -6,7 +6,13 @@ const SecureRoute = ({ children, ...rest }) => {
     const { userProfile, isLoading } = useAuthContext();
 
     if (isLoading) {
-        return <p>Loading</p>
+        return <section className="hero-banner" id="home-section">
+            <div className="container">
+                <div className="row">
+                    <img style={{ width: "300px" }} src="https://upload.wikimedia.org/wikipedia/commons/a/ad/YouTube_loading_symbol_3_%28transparent%29.gif" className="rounded mx-auto d-block" alt="..." />
+                </div>
+            </div>
+        </section>
     }
 
     return (

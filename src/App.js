@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import AboutPage from './components/AboutPage/AboutPage';
 import DetailsSingleService from './components/DetailsSingleService/DetailsSingleService';
 import Appointment from './components/Appointment/Appointment';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -33,6 +34,11 @@ function App() {
             <Route path="/about">
               <AboutPage />
             </Route>
+
+
+            <SecureRoute path="/blogs">
+              <Blogs />
+            </SecureRoute>
 
 
             <SecureRoute path="/appointment">

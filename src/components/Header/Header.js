@@ -36,7 +36,7 @@ const Header = () => {
                                     <HashLink to="/home#doctorsteam" className="nav-link">Our Doctors</HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <HashLink to="/home#blog" className="nav-link">Blog</HashLink>
+                                    <NavLink to="/blogs" className="nav-link">Blog</NavLink>
                                 </li>
 
                                 <li className="nav-item">
