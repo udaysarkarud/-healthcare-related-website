@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import UseFakeData from '../../../hook/UseFakeData';
 import teamPic from '../../../images/team/1.jpg'
 
 const TeamSection = () => {
+
+    const [DoctorsTeam] = UseFakeData('doctorsdata.json')
+
     return (
         <section className="container py-5" id="doctorsteam">
             <div>
@@ -11,81 +15,28 @@ const TeamSection = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3">
-                        <div className="team-box">
-                            <div className="team-media">
-                                <img src={teamPic} alt="" />
+                    {
+                        DoctorsTeam.map(singleDoc =>
+                            <div className="col-md-4" key={singleDoc.doc_id}>
+                                <div className="team-box">
+                                    <div className="team-media">
+                                        <img src={singleDoc.docImg} alt="" />
+                                    </div>
+                                    <div className="text-center my-3">
+                                        <h3>{singleDoc.docname}</h3>
+                                        <p>{singleDoc.suffix}</p>
+                                        <p>{singleDoc.specialists_in}</p>
+                                        <ul className="team-social">
+                                            <li> <a href="https://www.facebook.com/"> <i className="bi bi-facebook" aria-hidden="true"></i> </a> </li>
+                                            <li> <a href="https://www.facebook.com/"> <i className="bi bi-twitter" aria-hidden="true"></i> </a> </li>
+                                            <li> <a href="https://www.linkedin.com/"> <i className="bi bi-linkedin" aria-hidden="true"></i></a> </li>
+                                            <li> <a href="https://www.instagram.com/"> <i className="bi bi-instagram" aria-hidden="true"></i></a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="text-center my-3">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                <ul className="team-social">
-                                    <li> <a href=""> <i className="bi bi-facebook" aria-hidden="true"></i> </a> </li>
-                                    <li> <a href=""> <i className="bi bi-twitter" aria-hidden="true"></i> </a> </li>
-                                    <li> <a href=""> <i className="bi bi-linkedin" aria-hidden="true"></i></a> </li>
-                                    <li> <a href=""> <i className="bi bi-instagram" aria-hidden="true"></i></a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-md-3">
-                        <div className="team-box">
-                            <div className="team-media">
-                                <img src={teamPic} alt="" />
-                            </div>
-                            <div className="text-center my-3">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                <ul className="team-social">
-                                    <li> <a href=""> <i className="bi bi-facebook" aria-hidden="true"></i> </a> </li>
-                                    <li> <a href=""> <i className="bi bi-twitter" aria-hidden="true"></i> </a> </li>
-                                    <li> <a href=""> <i className="bi bi-linkedin" aria-hidden="true"></i></a> </li>
-                                    <li> <a href=""> <i className="bi bi-instagram" aria-hidden="true"></i></a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className="col-md-3">
-                        <div className="team-box">
-                            <div className="team-media">
-                                <img src={teamPic} alt="" />
-                            </div>
-                            <div className="text-center my-3">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                <ul className="team-social">
-                                    <li> <a href=""> <i className="bi bi-facebook" aria-hidden="true"></i> </a> </li>
-                                    <li> <a href=""> <i className="bi bi-twitter" aria-hidden="true"></i> </a> </li>
-                                    <li> <a href=""> <i className="bi bi-linkedin" aria-hidden="true"></i></a> </li>
-                                    <li> <a href=""> <i className="bi bi-instagram" aria-hidden="true"></i></a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className="col-md-3">
-                        <div className="team-box">
-                            <div className="team-media">
-                                <img src={teamPic} alt="" />
-                            </div>
-                            <div className="text-center my-3">
-                                <h3>Johnathan Doe</h3>
-                                <p>Cardiologist</p>
-                                <ul className="team-social">
-                                    <li> <a href=""> <i className="bi bi-facebook" aria-hidden="true"></i> </a> </li>
-                                    <li> <a href=""> <i className="bi bi-twitter" aria-hidden="true"></i> </a> </li>
-                                    <li> <a href=""> <i className="bi bi-linkedin" aria-hidden="true"></i></a> </li>
-                                    <li> <a href=""> <i className="bi bi-instagram" aria-hidden="true"></i></a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
+                        )
+                    }
                 </div>
             </div>
         </section>

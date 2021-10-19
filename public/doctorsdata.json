@@ -1,0 +1,74 @@
+[
+    {
+        "doc_id": 10268,
+        "docname": "Dr. Narendra Armogan",
+        "suffix": "MD, FRCSC",
+        "docImg": "http://occeyecare.ca/images/armogan.jpg",
+        "specialists_in": "Ophthalmology, Practicing in Retinal Diseases, Vitreoretinal Surgery, and Refractive Surgery",
+        "details": "Dr. Narendra Armogan was awarded the prestigious Scientific Award of Excellence by the American Retina Foundation (2006) for stem cell transplants in retinal diseases. His pioneering work in Retinal Cell Transplants, a novel therapy used in patients with dry AMD, has defined the standard of excellence for CCAET and has received significant international scientific recognition. Dr. Armogan has also been responsible for many surgical firsts in retina and cataract management. They include ground breaking surgeries such as: the first radial optic neurotomy, anti-VEGF therapy and multifocal lens implantation by a retinal surgeon in Canada.",
+        "rating": {
+            "rate": 4.9,
+            "count": 400
+        }
+    },
+    {
+        "doc_id": 10269,
+        "docname": "Dr. Fareed Ali",
+        "suffix": "MD, FRCSC",
+        "docImg": "http://occeyecare.ca/images/ali.jpg",
+        "specialists_in": "Ophthalmology, Practicing in Retinal Diseases and Laser Refractive Surgery",
+        "details": "Dr. Narendra Armogan was awarded the prestigious Scientific Award of Excellence by the American Retina Foundation (2006) for stem cell transplants in retinal diseases. His pioneering work in Retinal Cell Transplants, a novel therapy used in patients with dry AMD, has defined the standard of excellence for CCAET and has received significant international scientific recognition. Dr. Armogan has also been responsible for many surgical firsts in retina and cataract management. They include ground breaking surgeries such as: the first radial optic neurotomy, anti-VEGF therapy and multifocal lens implantation by a retinal surgeon in Canada.",
+        "rating": {
+            "rate": 4.9,
+            "count": 400
+        }
+    },
+    {
+        "doc_id": 10270,
+        "docname": "Dr. Dan D. DeAngelis",
+        "suffix": "MD, FRCSC",
+        "docImg": "http://occeyecare.ca/images/angelis.jpg",
+        "specialists_in": "Ophthalmology, Practicing in Ophthalmic Plastic and Reconstructive Surgery",
+        "details": "Dr. Dan DeAngelis is the eye plastic surgical consultant for OCC. He completed his ophthalmology training at The University of Toronto, following which he pursued his Oculoplastic Fellowship training in the United States before returning to Canada to join his colleagues at OCC. His plastic surgical expertise lies in both adult and paediatric disorders of the eyelids, tear ducts and orbits with particular interest in facial cosmetic surgery. He was inducted into the prestigious American Society of Ophthalmic Plastic and Reconstructive Surgery, one of only a few such members in all of Canada.",
+        "rating": {
+            "rate": 4.9,
+            "count": 400
+        }
+    },
+    {
+        "doc_id": 10271,
+        "docname": "Dr. David B. Yan",
+        "suffix": "MD, FRCSC",
+        "docImg": "http://occeyecare.ca/images/yan.jpg",
+        "specialists_in": "Ophthalmology, Practicing in Glaucoma Surgery",
+        "details": "Dr. David Yan has developed numerous surgical techniques which have been adopted by surgeons across the country, including his novel use of anti-angiogenic and anti-fibroblastic agents after glaucoma surgery. In conjunction with the Retinal and Cataract Division at OCC, Dr. Yan’s surgical approaches in treating glaucomatous eyes have advanced pathology and surgical techniques to implant artificial lenses into eyes that have a compromised posterior capsule.Dr. David Yan is the only ophthalmic surgeon practicing in Canada with an engineering degree from the Massachusetts Institute of Technology.",
+        "rating": {
+            "rate": 4.9,
+            "count": 400
+        }
+    },
+    {
+        "doc_id": 10272,
+        "docname": "Dr. Alan Kosaric",
+        "suffix": "MD, CCFP, EM, FRCSC",
+        "docImg": "http://occeyecare.ca/images/kosaric.jpg",
+        "specialists_in": "Comprehensive Ophthalmology",
+        "details": "At the onset of his extensive medical training, Dr. Alan Kosaric specialized in Family Medicine at the University of Toronto. He obtained his Independent Practice license before doing his emergency medicine certification. After spending 13 years in emergency medicine, Dr. Kosaric went back to school with a desire to become an ophthalmologist. He completed his post-graduate training from The University of Western in the Spring of 2012.As a Comprehensive Ophthalmologist, Dr. Kosaric is responsible for both routine and urgent cases, and will care for all types of conditions of the eye and surrounding structures.",
+        "rating": {
+            "rate": 4.9,
+            "count": 400
+        }
+    },
+    {
+        "doc_id": 10273,
+        "docname": "Dr. Kwesi McGuire",
+        "suffix": "MD, FRCSC",
+        "docImg": "http://occeyecare.ca/images/yan.jpg",
+        "specialists_in": "General Ophthalmology",
+        "details": "Dr. McGuire has made cataract surgery and glaucoma laser treatment a focus in his general ophthalmology practice and has established himself as a renowned surgeon and progressive expert in his field.",
+        "rating": {
+            "rate": 4.9,
+            "count": 400
+        }
+    }
+]

@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import UseFakeData from '../../../hook/UseFakeData';
 import abc from '../../../images/neurology-icon.png'
 import SingleService from '../../SingleService/SingleService';
 
 const ServicesSection = () => {
-    const [serviceData, setServiceData] = useState([])
 
-    useEffect(() => {
-        fetch('./servicesdata.json')
-            .then(res => res.json())
-            .then(data => setServiceData(data))
-    }, [])
+    const [serviceData] = UseFakeData('servicesdata.json')
+
     return (
         <section className="services-section py-5" id="services">
             <div className="container">
