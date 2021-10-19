@@ -3,7 +3,7 @@
 Live Site Link: [EyeCare.com](https://assignment-10-healthcare.web.app/).
 
 # About Project
-This preoject is for an eye hispital. You can easily use this app. Use React Js, React Router, Firebase, React Hook Form and other teachs to build this app.
+This preoject is for an eye hispital. You can easily use this app. Used React Js, React Router, Firebase, React Hook Form and other teachs to build this app.
 
 # Features
 1. You can check our basic information on this app.
