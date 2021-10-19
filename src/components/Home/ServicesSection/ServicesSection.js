@@ -4,8 +4,9 @@ import SingleService from '../../SingleService/SingleService';
 
 const ServicesSection = () => {
     const [serviceData, setServiceData] = useState([])
+
     useEffect(() => {
-        fetch('./servicesdata2.json')
+        fetch('./servicesdata.json')
             .then(res => res.json())
             .then(data => setServiceData(data))
     }, [])

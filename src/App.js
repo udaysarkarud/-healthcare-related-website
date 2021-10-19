@@ -45,9 +45,9 @@ function App() {
               <Login />
             </Route>
 
-            <Route path="/service-details/:service_id">
+            <SecureRoute path="/service-details/:service_id">
               <DetailsSingleService />
-            </Route>
+            </SecureRoute>
 
             <Route path="*">
               <NotFound />
