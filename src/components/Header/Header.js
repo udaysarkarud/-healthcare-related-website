@@ -11,7 +11,7 @@ const Header = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand text-white fw-bolder fs-2" href="#">
+                        <a className="navbar-brand text-white fw-bolder fs-2" href="https://assignment-10-healthcare.web.app/">
                             <i className="bi bi-eye-fill"></i> EyeCare
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"

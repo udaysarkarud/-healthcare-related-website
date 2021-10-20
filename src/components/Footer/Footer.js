@@ -77,8 +77,8 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="container pt-5">
-                <p className="text-center">&copy; 2021 EyeCare, Inc.</p>
+            <div className="p-3">
+                <p className="text-center mt-3">Powered by MTK 2021. All rights reserved.</p>
             </div>
         </footer>
     );

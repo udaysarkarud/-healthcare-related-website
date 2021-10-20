@@ -38,7 +38,6 @@ const useFirebase = () => {
     const handelEmailPasswordRegister = (name, email, password, handelRedirect) => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
-                console.log(result.user)
                 handelUpdateUserProfile(name)
                 handelRedirect()
             })

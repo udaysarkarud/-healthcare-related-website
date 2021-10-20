@@ -13,6 +13,7 @@ const Login = () => {
     const handelSigninFromGoogle = () => {
         handelGoogleSignIn()
             .then(result => {
+                setAllError('')
                 history.push(redirect_url)
             }).catch((error) => {
                 setAllError(error.code)
@@ -25,6 +26,7 @@ const Login = () => {
     const loginUsingEmailPassword = (email, password) => {
         handelEmailPasswordLogin(email, password)
             .then(result => {
+                setAllError('')
                 history.push(redirect_url)
             }).catch((error) => {
                 setAllError(error.code)
