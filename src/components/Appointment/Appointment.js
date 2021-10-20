@@ -46,13 +46,13 @@ const Appointment = () => {
                                 <div className="form-floating mb-3">
 
 
-                                    <input type="text" defaultValue={userProfile.displayName} {...register("name", { required: true })} className="form-control" id="floatingInput" />
+                                    <input type="text" defaultValue={userProfile.displayName} {...register("name", { required: true })} className="form-control" id="floatingInput" autoComplete="off" />
                                     {errors.name ? <label htmlFor="floatingInput">Your name is required</label> : <label htmlFor="floatingInput">Your name</label>}
 
                                 </div>
 
                                 <div className="form-floating mb-3">
-                                    <input type="email" defaultValue={userProfile.email} {...register("email", { required: true })} className="form-control" id="floatingInput" />
+                                    <input type="email" defaultValue={userProfile.email} {...register("email", { required: true })} className="form-control" id="floatingInput" autoComplete="off" />
                                     {errors.email ? <label htmlFor="floatingInput">Your email is required</label> : <label htmlFor="floatingInput">Your email</label>}
 
 
@@ -61,7 +61,7 @@ const Appointment = () => {
                                 <div className="row g-2  mb-3">
                                     <div className="col-md">
                                         <div className="form-floating">
-                                            <input type="text" {...register("subject", { required: true })} className="form-control" id="floatingInput" />
+                                            <input type="text" {...register("subject", { required: true })} className="form-control" id="floatingInput" autoComplete="off" />
                                             {errors.subject ? <label htmlFor="floatingInput"><span className="text-danger">Your Problem Subject</span></label> : <label htmlFor="floatingInput">Problem Subject</label>}
                                         </div>
                                     </div>

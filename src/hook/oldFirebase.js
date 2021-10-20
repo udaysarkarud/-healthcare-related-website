@@ -6,10 +6,9 @@ import { useEffect, useState } from "react";
 initializeHealthCareAuth()
 
 const useFirebase = () => {
-    const [userProfile, setUserProfile] = useState({});
+    const [userProfile, setUserProfile] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [allError, setAllError] = useState('')
-    const [singupError, setSingupError] = useState('')
 
 
     const auth = getAuth();
@@ -35,15 +34,14 @@ const useFirebase = () => {
     }
 
     /* Singup With Email and Password  */
-    const handelEmailPasswordRegister = (name, email, password, handelRedirect) => {
+    const handelEmailPasswordRegister = (name, email, password) => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 console.log(result.user)
                 handelUpdateUserProfile(name)
-                handelRedirect()
             })
             .catch((error) => {
-                setSingupError(error.code)
+                console.log(error.message)
             });
 
     }
@@ -55,13 +53,19 @@ const useFirebase = () => {
         }).then((result) => {
 
         }).catch((error) => {
-            setSingupError(error.code)
+            console.log(error.message)
         });
     }
 
     /* Email and Password SignIn  */
     const handelEmailPasswordLogin = (email, password) => {
-        return signInWithEmailAndPassword(auth, email, password)
+        signInWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                console.log(result.user)
+            })
+            .catch((error) => {
+                setAllError(error.message)
+            });
     }
 
     /* Update useProfile State  */
@@ -81,9 +85,6 @@ const useFirebase = () => {
     /* return necessary functions and state  */
     return {
         allError,
-        setAllError,
-        singupError,
-        setSingupError,
         userProfile,
         isLoading,
         setIsLoading,

@@ -68,7 +68,7 @@ const Footer = () => {
                         <div className="footer-widget">
                             <h3>Newsletter</h3>
                             <form>
-                                <input type="email" placeholder="Enter Email" className="form-control mb-2" />
+                                <input type="email" placeholder="Enter Email" className="form-control mb-2" autoComplete="off" />
                                 <a href="" className="btn btn-outline-light btn-lg">Subscribe</a>
                             </form>
                         </div>

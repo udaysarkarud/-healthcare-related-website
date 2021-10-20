@@ -12,7 +12,7 @@ const FeaturesSection = () => {
                     <div className="bg1 p-5">
                         <img src={calendarPng} alt="" />
                         <h3 className="text-white">24 Hours Services</h3>
-                        <p className="text-white">If you are experiencing a life-threatening condition, call 911 or seek emergency medical care by going to your nearest hospital emergency.</p>
+                        <p className="text-white">Experiencing a life-threatening condition, call 911 or seek emergency medical care by going to your nearest hospital emergency.</p>
                     </div>
                 </div>
 

@@ -50,8 +50,10 @@ const Header = () => {
 
                             <div>
                                 {
-                                    !userProfile?.email ? <NavLink to="/login" className="btn btn-outline-light">Log in / Register</NavLink> : <button className="btn btn-outline-danger" onClick={handelSignOut}><span className="badge bg-light text-dark">{userProfile.displayName}</span> Log out</button>
+                                    !userProfile?.email ? <NavLink to="/login" className="btn btn-outline-light">Log in / Register</NavLink> : <button className="btn btn-outline-danger" onClick={handelSignOut}><span className="badge bg-light text-dark">{userProfile.displayName ? userProfile.displayName : userProfile.email.substring(0, userProfile.email.lastIndexOf("@"))}</span> Log out</button>
                                 }
+
+
                             </div>
                         </div>
                     </div>

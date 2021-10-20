@@ -16,20 +16,20 @@ const ContactSection = () => {
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input type="text" className="form-control" placeholder="Name" />
+                                        <input type="text" className="form-control" placeholder="Name" autoComplete="off" />
                                     </div>
                                 </div>
 
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input type="text" className="form-control" placeholder="Email" />
+                                        <input type="text" className="form-control" placeholder="Email" autoComplete="off" />
                                     </div>
                                 </div>
 
 
                                 <div className="col-md-12">
                                     <div className="form-group">
-                                        <input type="text" className="form-control" placeholder="Subject" />
+                                        <input type="text" className="form-control" placeholder="Subject" autoComplete="off" />
                                     </div>
                                 </div>
 
