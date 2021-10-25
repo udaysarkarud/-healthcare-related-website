@@ -17,7 +17,7 @@ const SingleBlog = (props) => {
                     <div className="card-text">{SingleBlogData.details.slice(0, 300)}</div>
 
                     <div className="text-center mt-3">
-                        <button className="btn btn-outline-primary custom-btn">Check Details</button>
+                        <a href={blogUrl} className="btn btn-outline-primary custom-btn">Check Details</a>
                     </div>
                 </div>
             </div>

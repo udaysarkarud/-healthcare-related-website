@@ -12,6 +12,7 @@ import AboutPage from './components/AboutPage/AboutPage';
 import DetailsSingleService from './components/DetailsSingleService/DetailsSingleService';
 import Appointment from './components/Appointment/Appointment';
 import Blogs from './components/Blogs/Blogs';
+import DetailsSingleBlog from './components/DetailsSingleBlog/DetailsSingleBlog';
 
 function App() {
   return (
@@ -37,6 +38,11 @@ function App() {
 
             <SecureRoute path="/blogs">
               <Blogs />
+            </SecureRoute>
+
+
+            <SecureRoute path="/blog-details/:blog_id">
+              <DetailsSingleBlog />
             </SecureRoute>
 
             <SecureRoute path="/service-details/:service_id">

@@ -7,7 +7,10 @@ const DetailsSingleService = () => {
 
     const [DetailsData] = UseFakeData('servicesdata.json')
 
+
     const [SingledetailsData] = DetailsData.filter((details) => details.service_id == service_id)
+
+    console.log(SingledetailsData)
 
     return (
         <section className="container custom-section-margin" id="about">
